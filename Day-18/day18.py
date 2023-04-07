@@ -31,6 +31,7 @@ def clean_text(sen):
     new_sen=re.sub(patten,repalce,sen)
     return new_sen
 
+# [^a-zA-Z\s] means any character that IS NOT a-z OR A-Z or white space
 print(clean_text(sentence));
 
 # I am a teacher and I love teaching There is nothing as more rewarding as educating and empowering people I found teaching more interesting than any other jobs Does this motivate you to be a teacher
